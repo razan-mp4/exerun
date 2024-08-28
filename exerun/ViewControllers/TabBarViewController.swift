@@ -4,7 +4,6 @@
 //
 //  Created by Nazar Odemchuk on 5/1/2024.
 //
-
 import UIKit
 
 class TabBarViewController: UITabBarController {
@@ -12,8 +11,32 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Customize the tab bar appearance
+        customizeTabBarAppearance()
+
         // Call the method to customize the tab bar font
         customizeTabBarFont()
+    }
+
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+
+        // Check if the interface style has changed
+        if traitCollection.hasDifferentColorAppearance(comparedTo: previousTraitCollection) {
+            // Update the tab bar appearance for the new style
+            updateTabBarColorsForCurrentInterfaceStyle()
+        }
+    }
+
+    private func customizeTabBarAppearance() {
+        // Make the tab bar background transparent
+        tabBar.backgroundImage = UIImage() // Removes the background image
+        tabBar.shadowImage = UIImage() // Removes the shadow line
+        tabBar.isTranslucent = true // Enables translucency
+        tabBar.barTintColor = UIColor.black.withAlphaComponent(0.5) // Set the color with transparency
+
+        // Set initial colors based on the current interface style
+        updateTabBarColorsForCurrentInterfaceStyle()
     }
 
     private func customizeTabBarFont() {
@@ -25,4 +48,12 @@ class TabBarViewController: UITabBarController {
         }
     }
 
+    private func updateTabBarColorsForCurrentInterfaceStyle() {
+        // Determine the current interface style
+        let isDarkMode = traitCollection.userInterfaceStyle == .dark
+
+        // Set the tint color for selected and unselected items
+        tabBar.tintColor = UIColor.systemOrange // Color for selected items
+        tabBar.unselectedItemTintColor = isDarkMode ? UIColor.white : UIColor.black // Color for unselected items
+    }
 }

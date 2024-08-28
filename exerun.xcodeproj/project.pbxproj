@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E3BE6E62B5219FF00F22E76 /* WorkOutFinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3BE6E52B5219FF00F22E76 /* WorkOutFinishedViewController.swift */; };
+		7E86FA232C50290000CA5357 /* boop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E86FA222C50290000CA5357 /* boop.mp3 */; };
+		7E86FA262C61619900CA5357 /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86FA252C61619900CA5357 /* RoundedImageView.swift */; };
+		7E86FA2A2C62921100CA5357 /* RunningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86FA292C62921000CA5357 /* RunningViewController.swift */; };
+		7E86FA2C2C6924ED00CA5357 /* FreeRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86FA2B2C6924EC00CA5357 /* FreeRunViewController.swift */; };
+		7E86FA2E2C69252100CA5357 /* BuildRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86FA2D2C69252100CA5357 /* BuildRunViewController.swift */; };
+		7E86FA302C69253400CA5357 /* SetsRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86FA2F2C69253400CA5357 /* SetsRunViewController.swift */; };
+		7E86FA322C7F9B2A00CA5357 /* RunSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E86FA312C7F9B2A00CA5357 /* RunSessionModel.swift */; };
 		7E9243162B47CCFC00A84B8C /* NewWorkOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9243152B47CCFC00A84B8C /* NewWorkOutViewController.swift */; };
 		7E92431C2B47F41800A84B8C /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E92431B2B47F41700A84B8C /* TimerViewController.swift */; };
 		7E9243242B49900300A84B8C /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9243232B49900300A84B8C /* CircularProgressView.swift */; };
-		7E9243262B49E19F00A84B8C /* RoundedUpperRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9243252B49E19F00A84B8C /* RoundedUpperRectangleView.swift */; };
-		7E9243282B49E87800A84B8C /* RoundedBottomRectangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9243272B49E87800A84B8C /* RoundedBottomRectangleView.swift */; };
 		7E960A042B4775720078322E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E960A032B4775720078322E /* AppDelegate.swift */; };
 		7E960A062B4775720078322E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E960A052B4775720078322E /* SceneDelegate.swift */; };
 		7E960A082B4775720078322E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E960A072B4775720078322E /* ViewController.swift */; };
@@ -25,6 +31,7 @@
 		7E960A482B4794DB0078322E /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E960A472B4794DB0078322E /* HistoryViewController.swift */; };
 		7E960A4A2B4794ED0078322E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E960A492B4794ED0078322E /* SettingsViewController.swift */; };
 		7EAF2BA42B47A82F00B8C556 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAF2BA32B47A82F00B8C556 /* TabBarViewController.swift */; };
+		7ED897CE2B4F740E0081E888 /* TimeTrackerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED897CD2B4F740E0081E888 /* TimeTrackerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +52,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E3BE6E52B5219FF00F22E76 /* WorkOutFinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkOutFinishedViewController.swift; sourceTree = "<group>"; };
+		7E86FA222C50290000CA5357 /* boop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boop.mp3; sourceTree = "<group>"; };
+		7E86FA252C61619900CA5357 /* RoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		7E86FA292C62921000CA5357 /* RunningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningViewController.swift; sourceTree = "<group>"; };
+		7E86FA2B2C6924EC00CA5357 /* FreeRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeRunViewController.swift; sourceTree = "<group>"; };
+		7E86FA2D2C69252100CA5357 /* BuildRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildRunViewController.swift; sourceTree = "<group>"; };
+		7E86FA2F2C69253400CA5357 /* SetsRunViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsRunViewController.swift; sourceTree = "<group>"; };
+		7E86FA312C7F9B2A00CA5357 /* RunSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunSessionModel.swift; sourceTree = "<group>"; };
 		7E9243152B47CCFC00A84B8C /* NewWorkOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWorkOutViewController.swift; sourceTree = "<group>"; };
 		7E92431B2B47F41700A84B8C /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		7E9243232B49900300A84B8C /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
-		7E9243252B49E19F00A84B8C /* RoundedUpperRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedUpperRectangleView.swift; sourceTree = "<group>"; };
-		7E9243272B49E87800A84B8C /* RoundedBottomRectangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedBottomRectangleView.swift; sourceTree = "<group>"; };
 		7E960A002B4775720078322E /* exerun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exerun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E960A032B4775720078322E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E960A052B4775720078322E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +80,7 @@
 		7E960A472B4794DB0078322E /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		7E960A492B4794ED0078322E /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		7EAF2BA32B47A82F00B8C556 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarViewController.swift; path = exerun/ViewControllers/TabBarViewController.swift; sourceTree = SOURCE_ROOT; };
+		7ED897CD2B4F740E0081E888 /* TimeTrackerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTrackerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E86FA242C502AA900CA5357 /* SoundEffects */ = {
+			isa = PBXGroup;
+			children = (
+				7E86FA222C50290000CA5357 /* boop.mp3 */,
+			);
+			path = SoundEffects;
+			sourceTree = "<group>";
+		};
+		7E86FA342C7F9C6900CA5357 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		7E9609F72B4775720078322E = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +146,9 @@
 		7E960A022B4775720078322E /* exerun */ = {
 			isa = PBXGroup;
 			children = (
+				7E86FA342C7F9C6900CA5357 /* New Group */,
+				7E86FA242C502AA900CA5357 /* SoundEffects */,
+				7ED897CC2B4F73E80081E888 /* Models */,
 				7EAF2BA22B47A7C500B8C556 /* Controllers */,
 				7E960A3E2B4792DF0078322E /* ViewControllers */,
 				7E960A352B478E540078322E /* Views */,
@@ -152,8 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				7E9243232B49900300A84B8C /* CircularProgressView.swift */,
-				7E9243252B49E19F00A84B8C /* RoundedUpperRectangleView.swift */,
-				7E9243272B49E87800A84B8C /* RoundedBottomRectangleView.swift */,
+				7E86FA252C61619900CA5357 /* RoundedImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +198,11 @@
 				7E960A492B4794ED0078322E /* SettingsViewController.swift */,
 				7E9243152B47CCFC00A84B8C /* NewWorkOutViewController.swift */,
 				7E92431B2B47F41700A84B8C /* TimerViewController.swift */,
+				7E3BE6E52B5219FF00F22E76 /* WorkOutFinishedViewController.swift */,
+				7E86FA292C62921000CA5357 /* RunningViewController.swift */,
+				7E86FA2B2C6924EC00CA5357 /* FreeRunViewController.swift */,
+				7E86FA2D2C69252100CA5357 /* BuildRunViewController.swift */,
+				7E86FA2F2C69253400CA5357 /* SetsRunViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,6 +212,15 @@
 			children = (
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7ED897CC2B4F73E80081E888 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7ED897CD2B4F740E0081E888 /* TimeTrackerModel.swift */,
+				7E86FA312C7F9B2A00CA5357 /* RunSessionModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +329,7 @@
 			files = (
 				7E960A102B4775740078322E /* LaunchScreen.storyboard in Resources */,
 				7E960A0D2B4775740078322E /* Assets.xcassets in Resources */,
+				7E86FA232C50290000CA5357 /* boop.mp3 in Resources */,
 				7E960A0B2B4775720078322E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,16 +357,22 @@
 			files = (
 				7E960A082B4775720078322E /* ViewController.swift in Sources */,
 				7E92431C2B47F41800A84B8C /* TimerViewController.swift in Sources */,
-				7E9243282B49E87800A84B8C /* RoundedBottomRectangleView.swift in Sources */,
+				7E86FA322C7F9B2A00CA5357 /* RunSessionModel.swift in Sources */,
+				7E3BE6E62B5219FF00F22E76 /* WorkOutFinishedViewController.swift in Sources */,
 				7E960A042B4775720078322E /* AppDelegate.swift in Sources */,
+				7E86FA302C69253400CA5357 /* SetsRunViewController.swift in Sources */,
+				7ED897CE2B4F740E0081E888 /* TimeTrackerModel.swift in Sources */,
+				7E86FA2A2C62921100CA5357 /* RunningViewController.swift in Sources */,
+				7E86FA2E2C69252100CA5357 /* BuildRunViewController.swift in Sources */,
 				7EAF2BA42B47A82F00B8C556 /* TabBarViewController.swift in Sources */,
+				7E86FA2C2C6924ED00CA5357 /* FreeRunViewController.swift in Sources */,
 				7E960A462B4794B10078322E /* WorkOutViewController.swift in Sources */,
 				7E960A062B4775720078322E /* SceneDelegate.swift in Sources */,
 				7E9243162B47CCFC00A84B8C /* NewWorkOutViewController.swift in Sources */,
 				7E960A482B4794DB0078322E /* HistoryViewController.swift in Sources */,
+				7E86FA262C61619900CA5357 /* RoundedImageView.swift in Sources */,
 				7E9243242B49900300A84B8C /* CircularProgressView.swift in Sources */,
 				7E960A4A2B4794ED0078322E /* SettingsViewController.swift in Sources */,
-				7E9243262B49E19F00A84B8C /* RoundedUpperRectangleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
